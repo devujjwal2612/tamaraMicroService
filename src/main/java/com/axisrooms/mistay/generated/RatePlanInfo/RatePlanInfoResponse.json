@@ -1,0 +1,34 @@
+{
+  "message": "message for success/failure",
+  "status": "success/failure",
+  "data": [
+    {
+      "rateplanId": "15",
+      "ratePlanName": "CP",
+      "occupancy": [
+        "SINGLE",
+        "DOUBLE"
+      ],
+      "validity": {
+        "startDate": "2014-­06-­02",
+        "endDate": "2014­-06­-08"
+      },
+      "commissionPerc": "10.0",
+      "taxPerc": "5.0"
+    },
+    {
+      "rateplanId": "16",
+      "ratePlanName": "EP",
+      "occupancy": [
+        "SINGLE",
+        "DOUBLE"
+      ],
+      "validity": {
+        "startDate": "2014-­06-­06",
+        "endDate": "2014­-06­-12"
+      },
+      "commissionPerc": "10.0",
+      "taxPerc": "5.0"
+    }
+  ]
+}

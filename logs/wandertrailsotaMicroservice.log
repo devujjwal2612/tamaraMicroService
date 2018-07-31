@@ -1,0 +1,258 @@
+2018-07-19T06:06:46 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 32369 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T06:06:46 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T06:08:47 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 121.554 seconds (JVM running for 122.439)
+2018-07-19T06:08:54 [http-nio-61129-exec-2] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T06:08:55 [http-nio-61129-exec-2] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T06:19:09 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 423 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T06:19:09 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T06:20:09 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 61.132 seconds (JVM running for 61.886)
+2018-07-19T06:20:13 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T06:20:14 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T06:24:05 [http-nio-61129-exec-3] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T06:24:11 [http-nio-61129-exec-3] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T06:25:11 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 719 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T06:25:11 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T06:25:16 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 5.741 seconds (JVM running for 6.619)
+2018-07-19T06:25:20 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T06:25:28 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T06:25:55 [http-nio-61129-exec-1] ERROR com.axisrooms.mistay.controller.WandertrailsOta getRatePlans(83) - Encountered exception while getting ratePlans
+java.lang.IllegalArgumentException: No enum constant com.axisrooms.mistay.enums.Occupancy.EXTRA_BED
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at com.axisrooms.mistay.enums.Occupancy.valueOf(Occupancy.java:7)
+	at com.axisrooms.mistay.manager.WandertrailsOtaManager.buildRatePlansResponse(WandertrailsOtaManager.java:384)
+	at com.axisrooms.mistay.manager.WandertrailsOtaManager.getRatePlans(WandertrailsOtaManager.java:85)
+	at com.axisrooms.mistay.controller.WandertrailsOta.getRatePlans(WandertrailsOta.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-19T06:30:19 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 969 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T06:30:19 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T06:34:27 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 1214 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T06:34:27 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T06:35:36 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 69.578 seconds (JVM running for 70.369)
+2018-07-19T06:36:04 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T06:36:08 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T06:47:11 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 1738 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T06:47:11 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T06:47:16 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 5.65 seconds (JVM running for 6.465)
+2018-07-19T06:47:26 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T06:47:26 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T06:50:44 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 2075 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T06:50:44 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T06:50:49 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 5.691 seconds (JVM running for 6.572)
+2018-07-19T06:50:53 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T06:50:54 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T06:54:23 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 2484 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T06:54:23 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T06:54:27 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 5.371 seconds (JVM running for 6.154)
+2018-07-19T06:54:49 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 2599 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T06:54:49 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T06:54:55 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 6.137 seconds (JVM running for 6.928)
+2018-07-19T06:54:56 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T06:54:57 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T07:02:13 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 3141 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T07:02:13 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T07:02:17 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 4.836 seconds (JVM running for 5.468)
+2018-07-19T07:02:26 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T07:02:31 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T07:02:33 [http-nio-61129-exec-2] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T07:02:33 [http-nio-61129-exec-2] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T07:08:13 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 3780 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T07:08:13 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T07:08:19 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 6.232 seconds (JVM running for 7.092)
+2018-07-19T07:08:21 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(332) - Input request to fetch rate plans: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}
+2018-07-19T07:08:21 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getRatePlanInfo(340) - Axisrooms ota get rate plans Response={"code":200,"status":"success","message":"Rateplan info fetched successfully","data":[{"rateplanId":"AKL00010_CP","ratePlanName":"CP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_MAP","ratePlanName":"MAP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]},{"rateplanId":"AKL00010_AP","ratePlanName":"AP","occupancy":["DOUBLE","EXTRA_BED","EXTRA_CHILD"]}]}
+2018-07-19T09:11:42 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 7979 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T09:11:42 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T09:11:47 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 5.714 seconds (JVM running for 6.512)
+2018-07-19T09:11:54 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.controller.WandertrailsOta updatePrice(128) - REQUESTPriceRequest(channelId=76, token=CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E=, arcRequestId=3914, hotelId=AKL00010, data=[PriceData(roomDetails=[RoomDetail(roomId=1f215db7-a9a8-4da0-93ce-533454216d8d, ratePlanDetails=[RatePlanDetail(ratePlanId=AKL00010_CP, ratePlanName=CP, rateType=null, currency=IDR, days=null, rates=[Rate(startDate=2018-07-19, endDate=2018-07-19, tax=null, commission=null, prices={double=2222.0, extrabed=122.0, extrachild=111.0})], closeOutDates=null, inventories=null, restrictions=null)], ratePlans=[RatePlan(ratePlanId=AKL00010_CP, closedDates=null), RatePlan(ratePlanId=AKL00010_CP, closedDates=null), RatePlan(ratePlanId=AKL00010_CP, closedDates=null)])])])
+2018-07-19T09:20:28 [http-nio-61129-exec-1] ERROR com.axisrooms.mistay.manager.WandertrailsOtaManager buildUpdatePriceRequests(244) - Exception while preparing price update api input:: extrabed occupancy is not supported
+2018-07-19T09:20:28 [http-nio-61129-exec-1] ERROR com.axisrooms.mistay.controller.WandertrailsOta updatePrice(133) - Encountered exception while update prices
+java.lang.IllegalStateException: state should be: open
+	at com.mongodb.assertions.Assertions.isTrue(Assertions.java:70)
+	at com.mongodb.connection.BaseCluster.selectServer(BaseCluster.java:82)
+	at com.mongodb.binding.ClusterBinding$ClusterBindingConnectionSource.<init>(ClusterBinding.java:75)
+	at com.mongodb.binding.ClusterBinding$ClusterBindingConnectionSource.<init>(ClusterBinding.java:71)
+	at com.mongodb.binding.ClusterBinding.getWriteConnectionSource(ClusterBinding.java:68)
+	at com.mongodb.operation.OperationHelper.withConnection(OperationHelper.java:415)
+	at com.mongodb.operation.BaseWriteOperation.execute(BaseWriteOperation.java:133)
+	at com.mongodb.operation.BaseWriteOperation.execute(BaseWriteOperation.java:60)
+	at com.mongodb.Mongo.execute(Mongo.java:845)
+	at com.mongodb.Mongo$2.execute(Mongo.java:828)
+	at com.mongodb.DBCollection.executeWriteOperation(DBCollection.java:342)
+	at com.mongodb.DBCollection.replaceOrInsert(DBCollection.java:420)
+	at com.mongodb.DBCollection.save(DBCollection.java:409)
+	at com.mongodb.DBCollection.save(DBCollection.java:382)
+	at org.springframework.data.mongodb.core.MongoTemplate$11.doInCollection(MongoTemplate.java:1109)
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:482)
+	at org.springframework.data.mongodb.core.MongoTemplate.saveDBObject(MongoTemplate.java:1104)
+	at org.springframework.data.mongodb.core.MongoTemplate.doSave(MongoTemplate.java:1037)
+	at org.springframework.data.mongodb.core.MongoTemplate.save(MongoTemplate.java:984)
+	at org.springframework.data.mongodb.core.MongoTemplate.save(MongoTemplate.java:972)
+	at com.axisrooms.mistay.repository.AxisroomsOtaRepository.save(AxisroomsOtaRepository.java:49)
+	at com.axisrooms.mistay.repository.AxisroomsOtaRepository$$FastClassBySpringCGLIB$$2feb5e3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.axisrooms.mistay.repository.AxisroomsOtaRepository$$EnhancerBySpringCGLIB$$e16b5f57.save(<generated>)
+	at com.axisrooms.mistay.manager.WandertrailsOtaManager.updatePrice(WandertrailsOtaManager.java:150)
+	at com.axisrooms.mistay.controller.WandertrailsOta.updatePrice(WandertrailsOta.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-19T09:21:50 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 8403 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T09:21:50 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T09:21:55 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 5.78 seconds (JVM running for 6.592)
+2018-07-19T09:21:58 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.controller.WandertrailsOta updatePrice(128) - REQUESTPriceRequest(channelId=76, token=CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E=, arcRequestId=3914, hotelId=AKL00010, data=[PriceData(roomDetails=[RoomDetail(roomId=1f215db7-a9a8-4da0-93ce-533454216d8d, ratePlanDetails=[RatePlanDetail(ratePlanId=AKL00010_CP, ratePlanName=CP, rateType=null, currency=IDR, days=null, rates=[Rate(startDate=2018-07-19, endDate=2018-07-19, tax=null, commission=null, prices={double=2222.0, extrabed=122.0, extrachild=111.0})], closeOutDates=null, inventories=null, restrictions=null)], ratePlans=[RatePlan(ratePlanId=AKL00010_CP, closedDates=null), RatePlan(ratePlanId=AKL00010_CP, closedDates=null), RatePlan(ratePlanId=AKL00010_CP, closedDates=null)])])])
+2018-07-19T09:25:19 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager updatePrice(133) - update price request:: {
+  "auth" : {
+    "key" : "CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="
+  },
+  "data" : {
+    "propertyId" : "AKL00010",
+    "rate" : [ {
+      "endDate" : "2018-07-19",
+      "startDate" : "2018-07-19",
+      "EXTRA_BED" : "122.0",
+      "EXTRA_CHILD" : "111.0",
+      "DOUBLE" : "2222.0"
+    } ],
+    "rateplanId" : "AKL00010_CP",
+    "roomId" : "1f215db7-a9a8-4da0-93ce-533454216d8d"
+  }
+}
+2018-07-19T09:25:26 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager updatePrice(140) - Response for update price.....{"code":200,"status":"success","message":"Rates updated successfully"}
+2018-07-19T09:27:09 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarting(48) - Starting WandertrailsOtaApplication on tech-Latitude-3480 with PID 8668 (/home/tech/WORKSPACE/wandertrailsMicroService/out/production/classes started by tech in /home/tech/WORKSPACE/wandertrailsMicroService)
+2018-07-19T09:27:09 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStartupProfileInfo(593) - No active profile set, falling back to default profiles: default
+2018-07-19T09:27:14 [main] INFO  com.axisrooms.mistay.WandertrailsOtaApplication logStarted(57) - Started WandertrailsOtaApplication in 5.564 seconds (JVM running for 6.153)
+2018-07-19T09:27:38 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getProductInfo(280) - Input request to fetch rooms: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010"}
+2018-07-19T09:27:38 [http-nio-61129-exec-1] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getProductInfo(287) - Axisrooms ota getRooms Response={"code":200,"status":"success","message":"Roomtype info fetched successfully","data":[{"name":"Superior Tea View Room ","id":"1f215db7-a9a8-4da0-93ce-533454216d8d"}]}
+2018-07-19T09:27:40 [http-nio-61129-exec-2] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getProductInfo(280) - Input request to fetch rooms: -> {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"propertyId":"AKL00010"}
+2018-07-19T09:27:40 [http-nio-61129-exec-2] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager getProductInfo(287) - Axisrooms ota getRooms Response={"code":200,"status":"success","message":"Roomtype info fetched successfully","data":[{"name":"Superior Tea View Room ","id":"1f215db7-a9a8-4da0-93ce-533454216d8d"}]}
+2018-07-19T09:38:44 [http-nio-61129-exec-4] INFO  com.axisrooms.mistay.controller.WandertrailsOta updateInventory(102) - inside update inventory api for Wandertrails ota
+2018-07-19T09:38:44 [http-nio-61129-exec-4] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager updateInventory(99) - update inventory request:: {"auth":{"key":"CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="},"data":{"inventory":[{"endDate":"2018-07-19","free":1,"startDate":"2018-07-19"}],"propertyId":"AKL00010","roomId":"1f215db7-a9a8-4da0-93ce-533454216d8d"}}
+2018-07-19T09:38:45 [http-nio-61129-exec-4] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager updateInventory(107) - Response for update inventory.....{"code":200,"status":"success","message":"Inventory updated successfully"}
+2018-07-19T09:39:41 [http-nio-61129-exec-5] INFO  com.axisrooms.mistay.controller.WandertrailsOta updatePrice(128) - REQUESTPriceRequest(channelId=76, token=CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E=, arcRequestId=3914, hotelId=AKL00010, data=[PriceData(roomDetails=[RoomDetail(roomId=1f215db7-a9a8-4da0-93ce-533454216d8d, ratePlanDetails=[RatePlanDetail(ratePlanId=AKL00010_CP, ratePlanName=CP, rateType=null, currency=IDR, days=null, rates=[Rate(startDate=2018-07-19, endDate=2018-07-19, tax=null, commission=null, prices={double=2222.0, extrabed=100.0, extrachild=500.0})], closeOutDates=null, inventories=null, restrictions=null)], ratePlans=[RatePlan(ratePlanId=AKL00010_CP, closedDates=null), RatePlan(ratePlanId=AKL00010_CP, closedDates=null), RatePlan(ratePlanId=AKL00010_CP, closedDates=null)])])])
+2018-07-19T09:39:41 [http-nio-61129-exec-5] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager updatePrice(133) - update price request:: {
+  "auth" : {
+    "key" : "CDWax3IhzfWJ2c7XimUWqPB7FHOzivZV+V0PvNAXRMRK4E="
+  },
+  "data" : {
+    "propertyId" : "AKL00010",
+    "rate" : [ {
+      "endDate" : "2018-07-19",
+      "startDate" : "2018-07-19",
+      "EXTRA_BED" : "100.0",
+      "EXTRA_CHILD" : "500.0",
+      "DOUBLE" : "2222.0"
+    } ],
+    "rateplanId" : "AKL00010_CP",
+    "roomId" : "1f215db7-a9a8-4da0-93ce-533454216d8d"
+  }
+}
+2018-07-19T09:39:41 [http-nio-61129-exec-5] INFO  com.axisrooms.mistay.manager.WandertrailsOtaManager updatePrice(140) - Response for update price.....{"code":200,"status":"success","message":"Rates updated successfully"}

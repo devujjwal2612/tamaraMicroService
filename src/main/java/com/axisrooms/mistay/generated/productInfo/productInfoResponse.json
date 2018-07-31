@@ -1,0 +1,14 @@
+{
+  "message": "message for success/failure",
+  "status": "success/failure",
+  "data": [
+    {
+      "name": "room_name1",
+      "id": "room1"
+    },
+    {
+      "name": "room_name2",
+      "id": "room2"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="LOG_DIRECTORY" value="logs"/>
+    <property name="LOG_FILE_NAME" value="wandertrailsotaMicroservice"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd'T'HH:mm:ss, UTC} [%thread] %-5level %logger %M\(%line\) - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="WANDERTRAILSOTA_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIRECTORY}/${LOG_FILE_NAME}.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{yyyy-MM-dd'T'HH:mm:ss, UTC} [%thread] %-5level %logger %M\(%line\) - %msg%n
+            </Pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <FileNamePattern>${LOG_DIRECTORY}/archived/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.%i.log.gz
+            </FileNamePattern>
+            <!-- keep 15 days' worth of history -->
+            <MaxHistory>15</MaxHistory>
+            <!-- or whenever the file size reaches 10MB -->
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+    <logger name="com.axisrooms.mistay" level="info" additivity="false">
+        <appender-ref ref="WANDERTRAILSOTA_APPENDER"/>
+    </logger>
+
+    <logger name="org.springframework" level="error" additivity="false">
+        <appender-ref ref="WANDERTRAILSOTA_APPENDER"/>
+    </logger>
+</configuration>

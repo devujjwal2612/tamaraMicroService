@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "key": "key123"
+  },
+  "data": {
+    "propertyId": "hotelId",
+    "roomId": "roomId",
+    "inventory": [
+      {
+        "startDate": "2014­06­02",
+        "endDate": "2014­06­03",
+        "free": 1
+      }
+    ]
+  }
+}
