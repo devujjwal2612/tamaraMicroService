@@ -27,7 +27,7 @@ repositories {
 
 
 jar {
-    baseName = 'wandertrailsMicroService'
+    baseName = 'mistayMicroService'
     version = '0.1.0'
 }
 

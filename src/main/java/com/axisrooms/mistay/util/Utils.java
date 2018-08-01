@@ -61,9 +61,9 @@ public class Utils {
         transactionLog.setId(id);
         transactionLog.setHotelId(hotelId);
         transactionLog.setOperation(operation);
-        transactionLog.setOta(OTA.WANDERTRAILS);
+        transactionLog.setOta(OTA.MISTAY);
         transactionLog.setDate(LocalDate.now());
-        transactionLog.setService(ServiceName.WANDERTRAILS_SERVICE);
+        transactionLog.setService(ServiceName.MISTAY_SERVICE);
         transactionLog.setRoomId(roomId);
     }
 

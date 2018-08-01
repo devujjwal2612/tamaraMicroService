@@ -29,7 +29,7 @@ import javax.validation.Valid;
 @RequestMapping(value = "/v1/mistay")
 @Api(description = "Api to communicate with mistay-ota Microservice from Channel Manager")
 @Slf4j
-public class WandertrailsOta {
+public class MiStayOta {
 
     //to ensure security.. exposing as it's for internal purpose only
     @Value("${microservice.communication.token}")
@@ -99,7 +99,7 @@ public class WandertrailsOta {
             response = InventoryResponse.class
     )
     public ResponseEntity<?> updateInventory(@Valid @RequestBody InventoryRequest inventoryRequest) {
-        log.info("inside update inventory api for Wandertrails ota");
+        log.info("inside update inventory api for Mistay ota");
         ResponseEntity<?> responseEntity;
         try {
             InventoryResponse inventoryResponse = otaManager.updateInventory(inventoryRequest);

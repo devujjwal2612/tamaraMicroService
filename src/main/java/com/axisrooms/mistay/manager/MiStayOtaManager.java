@@ -80,9 +80,11 @@ public class MiStayOtaManager implements OTAManager {
 
     @Override
     public RatePlanResponse getRatePlans(String hotelId, String roomId) throws Exception {
-        RatePlanInfoRequest ratePlanInfoRequest = buildRatePlanInfoRequest(hotelId, roomId);
-        RatePlanInfoResponse ratePlanInfoResponse = getRatePlanInfo(ratePlanInfoRequest);
-        RatePlanResponse ratePlanResponse = buildRatePlansResponse(ratePlanInfoResponse, roomId);
+//        RatePlanInfoRequest ratePlanInfoRequest = buildRatePlanInfoRequest(hotelId, roomId);
+        ProductInfoRequest productInfoRequest = buildProductInfoRequest(hotelId);
+//        RatePlanInfoResponse ratePlanInfoResponse = getRatePlanInfo(ratePlanInfoRequest);
+        ProductInfoResponse productInfoResponse = getProductInfo(productInfoRequest);
+        RatePlanResponse ratePlanResponse = buildRatePlansResponse(productInfoResponse, roomId);
         return ratePlanResponse;
     }
 
@@ -341,7 +343,7 @@ public class MiStayOtaManager implements OTAManager {
         return MarshalUnmarshalUtils.deserialize(response, RatePlanInfoResponse.class);
     }
 
-    private RatePlanResponse buildRatePlansResponse(RatePlanInfoResponse ratePlanInfoResponse, String roomId){
+    private RatePlanResponse buildRatePlansResponse(ProductInfoResponse ratePlanInfoResponse, String roomId){
         RatePlanResponse ratePlanResponse = new RatePlanResponse();
         if (Objects.nonNull(ratePlanInfoResponse)) {
             if (ratePlanInfoResponse.getStatus().equalsIgnoreCase("success")) {
@@ -354,35 +356,36 @@ public class MiStayOtaManager implements OTAManager {
                 ratePlanDescription.setRoomId(roomId);
                 List<RatePlanConfiguration> ratePlanConfigurations = new ArrayList<>();
                 ratePlanDescription.setConfigurations(ratePlanConfigurations);
-                for (com.axisrooms.mistay.generated.RatePlanInfo.Datum datum : ratePlanInfoResponse.getData()) {
+                for (com.axisrooms.mistay.generated.productInfo.Datum datum : ratePlanInfoResponse.getData()) {
                     RatePlanConfiguration ratePlanConfiguration = new RatePlanConfiguration();
                     ratePlanConfigurations.add(ratePlanConfiguration);
-                    if (datum.getCommissionPerc()!=null){
-                        ratePlanConfiguration.setCommission(datum.getCommissionPerc());
-                    }
-                    if (datum.getRateplanId()!=null) {
-                        ratePlanConfiguration.setRatePlanId(datum.getRateplanId());
-                    }
-                    if (datum.getRatePlanName()!=null){
-                        ratePlanConfiguration.setRatePlanName(datum.getRatePlanName());
-                    }
-                    if (datum.getTaxPerc()!=null) {
-                        ratePlanConfiguration.setTax(datum.getTaxPerc());
-                    }
-                    if (datum.getValidity()!=null){
-                        Validity validity = datum.getValidity();
-                        RatePlanValidity ratePlanValidity = new RatePlanValidity();
-                        ratePlanValidity.setStartDate(validity.getStartDate());
-                        ratePlanValidity.setEndDate(validity.getEndDate());
-                        ratePlanConfiguration.setValidityList(new ArrayList<RatePlanValidity>(Arrays.asList(ratePlanValidity)));
-                    }
+//                    if (datum.getCommissionPerc()!=null){
+//                        ratePlanConfiguration.setCommission(datum.getCommissionPerc());
+//                    }
+//                    if (datum.getRateplanId()!=null) {
+                        ratePlanConfiguration.setRatePlanId(datum.getId());
+//                    }
+//                    if (datum.getRatePlanName()!=null){
+                        ratePlanConfiguration.setRatePlanName(datum.getName());
+//                    }
+//                    if (datum.getTaxPerc()!=null) {
+//                        ratePlanConfiguration.setTax(datum.getTaxPerc());
+//                    }
+//                    if (datum.getValidity()!=null){
+//                        Validity validity = datum.getValidity();
+//                        RatePlanValidity ratePlanValidity = new RatePlanValidity();
+//                        ratePlanValidity.setStartDate(validity.getStartDate());
+//                        ratePlanValidity.setEndDate(validity.getEndDate());
+//                        ratePlanConfiguration.setValidityList(new ArrayList<RatePlanValidity>(Arrays.asList(ratePlanValidity)));
+//                    }
 
                     List<String> occupancies = new ArrayList<>();
                     ratePlanDescription.setOccupancies(occupancies);
                     //occupancy (rate plan level or room level?)
-                    for (String occupancy : datum.getOccupancy()) {
-                        occupancies.add(Occupancy.valueOf(occupancy.toUpperCase()).getName());
-                    }
+//                    for (String occupancy : datum.getOccupancy()) {
+                        occupancies.add("single");
+                        occupancies.add("double");
+//                    }
                 }
             } else {
                 ratePlanResponse.setHttpStatusCode(HttpStatus.INTERNAL_SERVER_ERROR.value());
