@@ -11,6 +11,7 @@ import java.util.List;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
+
 @Data
 public class Inventory {
     @JsonFormat(pattern = Constants.DATE_PATTERN)
