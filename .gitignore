@@ -23,6 +23,7 @@ dump.rdb
 /shared/build/*
 /generated-classes/build/*
 /token-validation-service/build/*
+
 .gradle
 
 # Eclipse
