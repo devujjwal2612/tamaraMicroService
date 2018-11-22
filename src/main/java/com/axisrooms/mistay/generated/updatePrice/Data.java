@@ -3,6 +3,7 @@ package com.axisrooms.mistay.generated.updatePrice;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
@@ -10,9 +11,13 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @lombok.Data
 public class Data {
+    @JsonProperty("propertyId")
     private String propertyId;
+    @JsonProperty("rate")
     private List<Rate> rate;
+    @JsonProperty("rateplanId")
     private String rateplanId;
+    @JsonProperty("roomId")
     private String roomId;
 
     public String getpropertyId() {
