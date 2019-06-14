@@ -27,7 +27,7 @@ repositories {
 
 
 jar {
-    baseName = 'mistayMicroService'
+    baseName = 'tamaraMicroService'
     version = '0.1.0'
 }
 

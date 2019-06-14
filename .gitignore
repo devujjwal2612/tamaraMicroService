@@ -16,14 +16,7 @@ Thumbs.db
 dump.rdb
 
 # gradle files 
-/build/*
-/scrunch-service/build/*
-/post-booking-tool-service/build/*
-/static-dump-ingestion-service/build/*
-/shared/build/*
-/generated-classes/build/*
-/token-validation-service/build/*
-
+/build/**
 .gradle
 
 # Eclipse
@@ -34,7 +27,6 @@ dump.rdb
 
 # Do not store the logs folder and its contents
 /logs/*
-
 
 out/*
 

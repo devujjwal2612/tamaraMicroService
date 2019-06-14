@@ -1,4 +1,4 @@
 FROM openjdk:8-jre-slim
-COPY build/libs/mistayMicroService-0.1.0.jar /
+COPY build/libs/tamaraMicroService-0.1.0.jar /
 WORKDIR /
-CMD ["java", "-jar", "mistayMicroService-0.1.0.jar"]
+CMD ["java", "-jar", "tamaraMicroService-0.1.0.jar"]

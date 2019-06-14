@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <property name="LOG_DIRECTORY" value="logs"/>
-    <property name="LOG_FILE_NAME" value="mistayotaMicroservice"/>
+    <property name="LOG_FILE_NAME" value="tamaraotaMicroservice"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -10,7 +10,7 @@
         </encoder>
     </appender>
 
-    <appender name="MISTAYOTA_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="OTA_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_DIRECTORY}/${LOG_FILE_NAME}.log</file>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <Pattern>
@@ -32,11 +32,13 @@
         </rollingPolicy>
     </appender>
 
-    <logger name="com.axisrooms.mistay" level="info" additivity="false">
-        <appender-ref ref="MISTAYOTA_APPENDER"/>
+    <logger name="com.axisrooms.tamara" level="info" additivity="false">
+        <appender-ref ref="TAMARAOTA_APPENDER"/>
+        <appender-ref ref="STDOUT"/>
     </logger>
 
     <logger name="org.springframework" level="error" additivity="false">
-        <appender-ref ref="MISTAYOTA_APPENDER"/>
+        <appender-ref ref="TAMARAOTA_APPENDER"/>
+        <appender-ref ref="STDOUT"/>
     </logger>
 </configuration>
