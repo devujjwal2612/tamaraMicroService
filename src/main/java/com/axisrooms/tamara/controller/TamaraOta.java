@@ -99,7 +99,7 @@ public class TamaraOta {
             response = InventoryResponse.class
     )
     public ResponseEntity<?> updateInventory(@Valid @RequestBody InventoryRequest inventoryRequest) {
-        log.info("inside update inventory api for Mistay ota");
+        log.info("inside update inventory api for Tamara ota");
         ResponseEntity<?> responseEntity;
         try {
             InventoryResponse inventoryResponse = otaManager.updateInventory(inventoryRequest);
