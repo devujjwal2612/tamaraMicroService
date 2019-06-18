@@ -2,99 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0942f7-a881-47ff-b169-9ddf873a89de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mistayotaMicroservice.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/MiStayOtaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/Inventory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/InventoryData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/Period.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/PriceData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/Rate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/RatePlan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/RatePlanDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/RequestResponseData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/Restriction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/RestrictionData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/bean/RoomDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/configuration/RestTemplateConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/configuration/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/controller/MiStayOta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/CMRestriction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/Day.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/OTA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/Occupancy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/Operation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/ServiceName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/RatePlanInfo/Auth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/RatePlanInfo/Datum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/RatePlanInfo/RatePlanInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/RatePlanInfo/RatePlanInfoRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/RatePlanInfo/RatePlanInfoResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/RatePlanInfo/RatePlanInfoResponse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/RatePlanInfo/Validity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/productInfo/Auth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/productInfo/Datum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/productInfo/ProductInfoRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/productInfo/ProductInfoResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/productInfo/productInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/productInfo/productInfoResponse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updateInventory/Auth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updateInventory/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updateInventory/Inventory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updateInventory/InventoryUpdate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updateInventory/InventoryUpdateResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updateInventory/inventoryUpdate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updateInventory/inventoryUpdateResponse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updatePrice/Auth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updatePrice/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updatePrice/PriceUpdateResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updatePrice/Rate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updatePrice/RateUpdate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updatePrice/RateUpdateResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updatePrice/UpdatePriceOTA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updatePrice/updatePrice.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/generated/updatePrice/updatePriceResponse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/manager/MiStayOtaManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/manager/OTAManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/model/TransactionLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/repository/AxisroomsOtaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/request/InventoryRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/request/PriceRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/request/RestrictionRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/request/validation/InventoryRequestValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/request/validation/PriceRequestValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/request/validation/RestrictionRequestValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/request/validation/ValidIRestrictionRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/request/validation/ValidInventoryRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/request/validation/ValidPriceRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/response/Description.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/response/InventoryResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/response/PriceResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/response/RatePlanConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/response/RatePlanDescription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/response/RatePlanResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/response/RatePlanValidity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/response/RestrictionResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/response/RoomResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/util/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/util/MarshalUnmarshalUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/util/ObjectMapperSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/util/OccupancyNotSupportedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/util/PropertyCaseNamingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/util/Restriction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/util/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-production.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-production.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-staging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-staging.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -116,28 +27,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/controller/TamaraOta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="240">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#1308#1345#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/enums/ServiceName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-staging.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="60">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -151,18 +56,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315" />
+            <state relative-caret-position="79">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew.bat">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -176,7 +102,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/WandertrailsOtaApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application-staging.properties" />
@@ -184,6 +109,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/OTA.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/ServiceName.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/manager/MiStayOtaManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/controller/TamaraOta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/enums/OTA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/enums/ServiceName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/util/Utils.java" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -198,19 +129,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="miStayMicroService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamaraMicroService" type="b2602c69:ProjectViewProjectNode" />
               <item name="tamaraMicroService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="tamaraMicroService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamaraMicroService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tamaraMicroService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamaraMicroService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="tamaraMicroService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamaraMicroService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tamaraMicroService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamaraMicroService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tamara" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tamaraMicroService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamaraMicroService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tamara" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,6 +184,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
@@ -232,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TamaraMicroservice">
+  <component name="RunManager" selected="Spring Boot.TamaraOtaApplication">
     <configuration name="TamaraMicroservice" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.axisrooms.tamara.TamaraOtaApplication" />
       <module name="tamaraMicroService_main" />
@@ -253,9 +222,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiStayOtaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="miStayMicroService_main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisrooms.mistay.MiStayOtaApplication" />
+    <configuration name="TamaraOtaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tamaraMicroService_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisrooms.tamara.TamaraOtaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TamaraOtaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tamaraMicroService_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisrooms.tamara.TamaraOtaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -271,7 +248,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.TamaraMicroservice" />
-      <item itemvalue="Spring Boot.MiStayOtaApplication" />
+      <item itemvalue="Spring Boot.TamaraOtaApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -285,17 +262,21 @@
       <option name="presentableId" value="Default" />
       <updated>1533026742591</updated>
       <workItem from="1560489192960" duration="160000" />
-      <workItem from="1560489547380" duration="85000" />
+      <workItem from="1560489547380" duration="2169000" />
+      <workItem from="1560502647282" duration="1205000" />
+      <workItem from="1560755316057" duration="311000" />
+      <workItem from="1560780547179" duration="510000" />
+      <workItem from="1560834671244" duration="3849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245000" />
+    <option name="totallyTimeSpent" value="8204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25816733" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27171314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,7 +292,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3167702" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26086956" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3286385" />
       <window_info anchor="bottom" id="Spring" order="11" />
@@ -336,14 +317,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/MiStayOtaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/OTA.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/manager/MiStayOtaManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/ServiceName.java" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -360,8 +337,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-staging.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -372,35 +362,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/MiStayOtaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/OTA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/manager/MiStayOtaManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/mistay/enums/ServiceName.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/enums/ServiceName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
@@ -409,7 +371,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315" />
+        <state relative-caret-position="79">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/enums/OTA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axisrooms/tamara/controller/TamaraOta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#1308#1345#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
       </provider>
     </entry>
   </component>
